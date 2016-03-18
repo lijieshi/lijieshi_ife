@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0px;
+	margin:0px;
+	}
+
+body{
+	background-color:#dedede;
+	font-family:"Microsoft YaHei Mono";
+	}
+	
+#header{
+	width:100%;
+	}
+	
+.nav{
+	background-color:#000;
+	font-family:"Microsoft YaHei Mono";
+	height:60px;}
+	
+.logo{
+	color:#FFF;
+	margin-left:20px;
+	line-height:60px;
+	float:left;
+	font-size:35px;}
+	
+.nav_list{
+	list-style-type:none;}
+	
+.nav_list li{
+	list-style-type:none;
+	line-height:60px;
+	float:right;
+	color:#FFF;
+	width:80px;}
+	
+.nav_list li a:link,.nav_list li a:visited{
+	text-decoration:none;
+	color:#FFF;}
+	
+.nav_list li a:hover, .nav_list li a:active {
+	color:#CCC;
+	text-decoration: none;
+}
+
+.footer{
+	width:100%;}
+	
+.copyright{
+	background-color:#000;
+	height:60px;}
+	
+.copyright p{
+	color:#FFF;
+	line-height:60px;
+	text-align:center;}
+	
+.part1{
+	background-color:#fff;
+	margin:20px;}
+	
+.part1 h1,h3,h4{
+	margin:20px;}
+	
+.h3,h4{
+	color:#999;}
+	
+.part1 p{
+	margin:20px;
+	text-indent:20px;}
+	
+.part1 img{
+	width:200px;}
+	
+.part2{
+	background-color:#fff;
+	margin:0px 20px 20px 20px;}
+	
+.part2 h1,p{
+	margin:20px;}
+	
+.part2 img{
+	width:200px;}
+	
+.part2 ul{
+	list-style-type:none;}
+	
+.part2 ul li{
+	margin:20px;}
+	
+.part3{
+	background-color:#fff;
+	margin:0px 20px 20px 20px;}
+	
+.part3 h2{
+	margin:20px;}
+	
+.part3 li{
+	border:1px solid #ccc;
+	margin:20px 70px;
+	width:200px;}
+	
+.part3 li p{
+	text-align:center;}
+	
+.part3 img{
+	width:200px;}
+	
+.part4{
+	background-color:#fff;
+	padding:0 0 20px 0;
+	margin:0px 20px 20px 20px;}
+	
+.part4 h1{
+	margin:20px;}
+	
+.part4 ol{
+	margin:20px 60px;}
+	
+.part4 table{
+	margin:20px 20px;
+	/*合并边框*/
+	border-collapse: collapse;}
+	
+.part4 table td{
+	width:300px;
+	padding:5px;
+	border:1px solid #ccc;}
+	
+.part4 thead{
+	font-weight:bold;
+	background:#333;
+	color:#fff;}
+	
+.part4 tfoot{
+	background:#ccc;}
+
+.part5{
+	background-color:#fff;
+	margin:0px 20px 20px 20px;}
+	
+.part5 h2{
+	margin:20px;}
+	
+.mytable{
+	margin:20px auto;}
+	
+.submit{
+	cursor:pointer;
+	background-color:#3355D0;
+	width:95%;
+	margin:10px;
+	height:40px;
+	color:#fff;
+	text-align:center;
+	font-size:20px;
+	font-weight:bold;
+	border-radius:20px;}
+	
+
+
+
