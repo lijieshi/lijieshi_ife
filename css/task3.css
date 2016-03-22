@@ -19,6 +19,7 @@ body{
 	float: left;
 	width: 200px;
 	height: 120px;
+	/*重要*/
 	margin-left: -100%;
 	border:1px solid #999;
 	background: #fff;
@@ -36,6 +37,7 @@ body{
 }
 .main_content{
 	float: left;	
+	/*重要*/
 	width: 100%;
 	height: auto;
 }
