@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>task10</title>
+<style>
+body {
+	margin: 0px;
+	padding: 0px;
+}
+.container {
+	/*flex布局*/
+	display: flex;
+	/*创建主轴 定义多行显示*/
+	flex-flow: row wrap;
+	/*伸缩项目会平均地分布在行里。第一个伸缩项目一行中的最开始位置，最后一个伸缩项目在一行中最终点位置。*/
+	justify-content: space-between;
+	/*伸缩项目的外边距盒在该行的侧轴上居中放置。*/
+	align-items: center;
+	padding: 20px;
+}
+.box {
+	width: 150px;
+	border: solid #f00 3px;
+	margin-bottom: 20px;
+}
+.box1 {
+	height: 120px;
+}
+.box2 {
+	height: 100px;
+}
+.box3 {
+	height: 40px;
+}
+.box4 {
+	height: 200px;
+	border-color: #0f0;
+}
+@media(max-width:640px
+) {
+ .container {
+		/*伸缩项目在侧轴起点边的外边距紧靠住该行在侧轴起始的边*/
+		align-items:flex-start;
+}
+ .box4 {
+ order:-1;
+}
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+	<div class="box box1"></div>
+	<div class="box box2"></div>
+	<div class="box box3"></div>
+	<div class="box box4"></div>
+</div>
+</body>
+</html>
