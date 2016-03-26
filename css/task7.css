@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: "Microsoft YaHei Mono";
+	min-width:1280px;}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+/*header*/
+.header {
+	width: 100%;
+}
+.nav {
+	height: 57px;
+	background-color: #fff;
+}
+.logo p {
+	line-height: 57px;
+	font-size: 21px;
+	font-weight: bold;
+}
+.logo {
+	float: left;
+	background: url(file:///C|/Users/lijieshi/Desktop/%E7%99%BE%E5%BA%A6ife/img/task-7-logo.png) no-repeat left center;
+	margin-left: 60px;
+	padding-left: 40px;
+}
+.nav_list {
+	margin-right: 38px;
+}
+.normal {
+	font-family: "Microsoft YaHei Mono";
+	line-height: 57px;
+	float: right;
+	color: #ccc;
+	padding: 0 22px;
+}
+.nav_a {
+	font-family: Microsoft YaHei;
+	color: #666699;
+}
+.nav_a:hover {
+	color: #e74f4d;
+}
+.login {
+	color: #e74f4d;
+}
+.login_logo{
+	background:url(file:///C|/Users/lijieshi/Desktop/%E7%99%BE%E5%BA%A6ife/img/task-7-login.png) no-repeat left center;}
+.selected {
+	border-bottom: 4px solid #e74f4d;
+}
+/*main_body*/
+/*first*/
+.first{
+	position:relative;
+	width:100%;}
+	
+.first_img{
+	width:100%;}
+	
+.first_title{
+	position:absolute;
+	font-size:60px;
+	color:#fff;
+	top:230px;
+	left:115px;}
+	
+.first_text{
+	width:300px;
+	font-size:21px;
+	color:#fff;
+	position:absolute;
+	top:310px;
+	left:115px;}
+	
+.first_btn{
+	width:330px;
+	height:66px;
+	background-color:#e74f4d;
+	color:#fff;
+	font-size:30px;
+	line-height:66px;
+	text-align:center;
+	position:absolute;
+	top:425px;
+	left:115px;
+	cursor:pointer;
+	border:none;
+	outline:none;}
+	
+.second{
+	width:100%;
+	height:25opx;}
+	
+.second_li{
+	float:left;
+	width:25%;
+	height:250px;}
+
