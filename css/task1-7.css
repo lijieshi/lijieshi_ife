@@ -1,0 +1,855 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-width: 1280px;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+/*顶部*/
+.header {
+    width: 100%;
+    height: 57px;
+}
+.logo {
+    display: inline-block;
+    background: url("../img/1-7-logo.png") no-repeat left center;
+    margin-left: 60px;
+    padding-left: 41px;
+}
+.logo-text {
+    font-size: 21px;
+    font-family: SimHei;
+    line-height: 57px;
+}
+.nav {
+    float: right;
+    display: inline;
+    margin-right: 38px;
+    margin-top: 16px;
+}
+.nav-li {
+    float: left;
+    padding: 0 22px;
+    height: 37px;
+}
+.nav-li-now {
+    border-bottom: 4px solid #e74f4d;
+}
+.nav-a {
+    font-family: Microsoft YaHei;
+    font-size: 14px;
+    color: #666699;
+}
+.nav-a:hover {
+    color: #e74f4d;
+}
+.nav-a-now {
+    color: #e74f4d;
+}
+.nav-a-login {
+    background: url("../img/1-7-user.png") no-repeat left center;
+    padding-left: 18px;
+    margin-left: -10px;
+    color: #e74f4d;
+}
+
+
+/*banner*/
+.banner {
+    width: 100%;
+    position: relative;
+}
+.b-img {
+    width: 100%;
+}
+.b-title {
+    font-family: "Microsoft YaHei";
+    font-size: 60px;
+    color: #ffffff;
+    position: absolute;
+    top: 230px;
+    left: 115px;
+}
+.b-text {
+    width: 300px;
+    font-family: "Microsoft YaHei";
+    font-size: 21px;
+    color: #ffffff;
+    position: absolute;
+    top: 310px;
+    left: 115px;
+}
+.b-btn {
+    width: 330px;
+    height: 66px;
+    background-color: #e74f4d;
+    color: #ffffff;
+    font-family: "Microsoft YaHei";
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: none;
+    position: absolute;
+    top: 425px;
+    left: 115px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+/*简介*/
+.intro {
+    width: 100%;
+    height: 250px;
+}
+.intro-li {
+    width: 25%;
+    height: 250px;
+    float: left;
+}
+.intro-img {
+    width: 100%;
+    height: 134px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 128px;
+}
+.img-inner {
+    vertical-align: middle;
+}
+.intro-text {
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    border-right: 2px solid #aba6a5;
+}
+
+.text-inner {
+    width: 155px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+}
+.intro-last {
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    border: none;
+}
+
+/*新世界*/
+.world {
+    width: 100%;
+    height: 270px;
+    background-color: #ededec;
+    padding-top: 90px;
+}
+.world-img {
+    display: block;
+    width: 92px;
+    margin: 0 auto 45px auto;
+}
+.world-text {
+    font-family: SimHei;
+    font-size: 54px;
+    color: #867e7a;
+    text-align: center;
+}
+
+/*地图*/
+.map {
+    width: 100%;
+    height: 340px;
+    background: url("../img/1-7-map.png");
+    background-size: 100%;
+}
+.map-title {
+    font-family: "Microsoft YaHei";
+    font-size: 21px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 52px;
+}
+.map-line {
+    width: 30px;
+    height: 2px;
+    background-color: #ffffff;
+    margin: 15px auto 20px auto;
+}
+.map-text {
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+}
+.map-search {
+    width: 1056px;
+    position: relative;
+    margin: 50px auto 0 auto;
+    font-size: 0;
+    -webkit-text-size-adjust: none;
+}
+.map-select {
+    width: 234px;
+    height: 34px;
+    border: 1px solid #be4e48;
+    background-color: #ffffff;
+    display: inline-block;
+    margin: 0 14px;
+    vertical-align: top;
+    position: relative;
+}
+.map-select:hover .map-ul {
+    display: block;
+}
+.search {
+    width: 236px;
+    height: 36px;
+    background-color: #be4e48;
+    display: inline-block;
+    margin: 0 14px;
+    border: none;
+    color: #ffffff;
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+	/*不要边框*/
+    outline: none;
+    letter-spacing: 10px;
+    vertical-align: top;
+    cursor: pointer;
+    overflow: visible;
+}
+.s-info {
+    display: inline-block;
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+    color: #999999;
+    margin-left: 12px;
+    line-height: 34px;
+}
+.s-info-right {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: #be4e48;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 18px;
+    float: right;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+.s-arrow {
+    display: inline-block;
+	/*将>符号旋转90度*/
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);		/* IE 9 */
+    -webkit-transform: rotate(90deg);	/* Safari and Chrome */
+    -o-transform: rotate(90deg);		/* Opera */
+    -moz-transform: rotate(90deg);		/* Firefox */
+}
+.map-ul {
+    width: 234px;
+    background-color: #e3e3e4;
+    border: 1px solid #be4e48;
+    position: relative;
+    left: -1px;
+    display: none;
+}
+
+.map-li {
+    height: 27px;
+    padding-left: 8px;
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+    line-height: 27px;
+    color: #333333;
+    cursor: default;
+}
+.map-li-selected {
+    height: 27px;
+    padding-left: 8px;
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+    line-height: 27px;
+    cursor: default;
+    background-color: #be4e48;
+    color: #e3e3e4;
+}
+.map-li:hover {
+    background-color: #be4e48;
+    color: #e3e3e4;
+}
+.map-li-left {
+    color: #e3e3e4;
+    margin-right: 10px;
+}
+
+/*图片展示*/
+.show {
+    width: 100%;
+    height: 390px;
+    padding-top: 100px;
+    padding-bottom: 114px;
+}
+.show-ul {
+    width: 1032px;
+    margin: 0 auto;
+}
+.clearfix:before {
+    content:"";
+    display:table;
+}
+.clearfix:after{
+    content:"";
+    display:table;
+    clear:both;
+    overflow:hidden;
+}
+.clearfix {
+    zoom:1;
+}
+.show-li {
+    width: 220px;
+    margin: 0 19px;
+    float: left;
+}
+.show-img {
+    width: 220px;
+    height: 340px;
+    display: table-cell;
+    box-sizing: border-box;
+    border: 1px solid #e0dddd;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 128px;
+}
+.s-img-inner {
+    vertical-align: middle;
+}
+.show-title {
+    width: 220px;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    text-align: center;
+    color: #333333;
+    margin-top: 10px;
+}
+.show-title2 {
+    width: 220px;
+    font-family: "Microsoft YaHei";
+    font-size: 18px;
+    text-align: center;
+    color: #333333;
+    letter-spacing: 36px;
+    padding-left: 18px;
+}
+.show-text {
+    width: 220px;
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+    text-align: center;
+    color: #999999;
+    margin-top: 5px;
+}
+.show-text2 {
+    width: 220px;
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+    text-align: center;
+    color: #999999;
+    margin-bottom: 5px;
+}
+
+/*幻灯片部分*/
+.slide {
+    width: 100%;
+    height: 561px;
+    font-size: 0;
+    -webkit-text-size-adjust: none;  /*chrome*/
+}
+@media (max-width: 1280px) {
+    .slide-left {
+        width: 850px;
+        display: inline-block;
+    }
+    .slide-img {
+        width: 850px;
+    }
+    .slide-right {
+        width: 430px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+}
+.slide-img {
+    width: 100%;
+}
+.slide-left{
+     width: 66.7%;
+     display: inline-block;
+ }
+.slide-right {
+    width: 33.3%;
+    display: inline-block;
+    vertical-align: top;
+}
+.slide-title {
+    font-family: SimHei;
+    font-size: 21px;
+    color: #000000;
+    margin-top: 150px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.slide-num {
+    font-family: SimHei;
+    font-size: 21px;
+    color: #e74f4d;
+    margin-top: 150px;
+}
+.slide-text {
+    width: 290px;
+    margin: 0 auto;
+    font-family: STSong;
+    font-size: 12px;
+    line-height: 200%;
+    color: #999999;
+}
+.slide-more {
+    display: block;
+    width: 108px;
+    height: 36px;
+    box-sizing: border-box;
+    border: 2px solid #e74f4d;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    color: #e74f4d;
+    text-align: center;
+    line-height: 34px;
+    background-color: #ffffff;
+    margin: 50px auto 24px auto;
+    cursor: pointer;
+    transition:background-color 0.3s;
+    -moz-transition:background-color 0.3s; /* Firefox 4 */
+    -webkit-transition:background-color 0.3s; /* Safari and Chrome */
+    -o-transition:background-color 0.3s; /* Opera */
+}
+.slide-more:hover {
+    background-color: #e74f4d;
+    color: #ffffff;
+}
+.slide-bottom {
+    width: 75px;
+    height: 15px;
+    margin: 0 auto 128px auto;
+    font-size: 0;
+    -webkit-text-size-adjust: none;
+}
+.slide-dot {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    background-color: #929292;
+    margin: 0 6px;
+}
+.slide-dot2 {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #929292;
+    border-radius: 12px;
+    background-color: #ffffff;
+    margin: 0 6px;
+}
+/*查看更多*/
+@media (max-width: 1280px) {
+    .more-left {
+        display: inline-block;
+        width: 850px;
+        height: 346px;
+        font-size: 0;
+        -webkit-text-size-adjust: none;
+        vertical-align: top;
+    }
+    .more-right {
+        display: inline-block;
+        width: 430px;
+        height: 520px;
+        background: url("../img/1-7-world2.png");
+        background-size: cover;
+    }
+}
+.more {
+    width: 100%;
+    height: 520px;
+    font-size: 0;
+    -webkit-text-size-adjust: none;
+}
+.more-left {
+    display: inline-block;
+    width: 66.7%;
+    height: 346px;
+    font-size: 0;
+    -webkit-text-size-adjust: none;
+    vertical-align: top;
+}
+.more-right {
+    display: inline-block;
+    width: 33.3%;
+    height: 520px;
+    background: url("../img/1-7-world2.png");
+    background-size: cover;
+}
+/*.triangle {*/
+    /*width:0;*/
+    /*height:0;*/
+    /*background: none;*/
+    /*border-width:30px 15px;*/
+    /*border-style: solid;*/
+    /*border-top-color:#ff3300;*/
+/*}*/
+.m-l-red {
+    display: inline-block;
+    width: 50%;
+    height: 346px;
+    background-color: #e74f4d;
+    padding-top: 174px;
+}
+.red-text {
+    font-family: SimHei;
+    font-size: 21px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 150%;
+}
+.red-line {
+    width: 42px;
+    height: 2px;
+    background-color: #ffffff;
+    margin: 25px auto;
+}
+.red-btn {
+    display: block;
+    width: 170px;
+    height: 44px;
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+    font-family: "Microsoft YaHei";
+    font-size: 21px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 42px;
+    background-color: #e74f4d;
+    margin: 0 auto;
+    cursor: pointer;
+    outline: none;
+    transition:background-color 0.3s;
+    -moz-transition:background-color 0.3s; /* Firefox 4 */
+    -webkit-transition:background-color 0.3s; /* Safari and Chrome */
+    -o-transition:background-color 0.3s; /* Opera */
+}
+.red-btn:hover {
+    background-color: #ff6666;
+}
+.m-l-white {
+    display: inline-block;
+    width: 50%;
+    height: 346px;
+    background-color: #ffffff;
+    padding-top: 174px;
+}
+.white-text {
+    font-family: SimHei;
+    font-size: 21px;
+    color: #e74f4d;
+    text-align: center;
+    line-height: 150%;
+}
+.white-line {
+    width: 42px;
+    height: 2px;
+    background-color: #e74f4d;
+    margin: 25px auto;
+}
+.white-btn {
+    display: block;
+    width: 170px;
+    height: 44px;
+    box-sizing: border-box;
+    border: 1px solid #e74f4d;
+    font-family: "Microsoft YaHei";
+    font-size: 21px;
+    color: #e74f4d;
+    text-align: center;
+    line-height: 42px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    cursor: pointer;
+    transition:background-color 0.3s;
+    -moz-transition:background-color 0.3s; /* Firefox 4 */
+    -webkit-transition:background-color 0.3s; /* Safari and Chrome */
+    -o-transition:background-color 0.3s; /* Opera */
+}
+.white-btn:hover {
+    background-color: #e74f4d;
+    color: #ffffff;
+}
+/*加入我们*/
+.join {
+    width: 100%;
+}
+.join-title {
+    font-family: SimHei;
+    font-size: 21px;
+    color: #000000;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 10px;
+}
+.join-text {
+    font-family: STSong;
+    font-size: 12px;
+    color: #999999;
+    text-align: center;
+    line-height: 150%;
+}
+.join-content {
+    padding: 80px 120px 165px 120px;
+    font-size: 0;
+    -webkit-text-size-adjust: none;
+}
+.j-left {
+    width: 300px;
+    margin: 0 30px;
+    display: inline-block;
+}
+.j-l-new {
+    margin-top: 50px;
+}
+.j-l-title {
+    font-family: SimHei;
+    font-size: 14px;
+    color: #330000;
+    margin-bottom: 24px;
+}
+.j-l-text {
+    font-family: STSong;
+    font-size: 12px;
+    color: #330000;
+}
+.j-l-more {
+    float: right;
+    font-family: SimHei;
+    font-size: 12px;
+    color: #330000;
+}
+.j-l-arrow {
+    display: inline-block;
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);		/* IE 9 */
+    -webkit-transform: rotate(90deg);	/* Safari and Chrome */
+    -o-transform: rotate(90deg);		/* Opera */
+    -moz-transform: rotate(90deg);		/* Firefox */
+    vertical-align: middle;
+    margin-right: 3px;
+}
+.j-right {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 40px;
+    font-size: 0;
+    -webkit-text-size-adjust: none;
+    margin-left: 30px;
+}
+.j-name {
+    display: inline-block;
+}
+.j-age {
+    display: inline-block;
+    margin-left: 30px;
+}
+.j-age label {
+    display: inline-block;
+    /*margin-left: 30px;*/
+    text-align: center;
+}
+.j-label {
+    display: inline-block;
+    width: 60px;
+    font-family: STSong;
+    font-size: 12px;
+    color: #330000;
+}
+.j-label2 {
+    display: inline-block;
+    width: 60px;
+    font-family: STSong;
+    font-size: 12px;
+    color: #330000;
+}
+.j-label3 {
+    display: block;
+    width: 200px;
+    font-family: STSong;
+    font-size: 12px;
+    color: #330000;
+}
+.j-input {
+    display: inline-block;
+    width: 235px;
+    height: 30px;
+    border: none;
+    background: #ededee;
+    padding-left: 5px;
+    font-size: 12px;
+    line-height: 30px;
+    outline: none;
+}
+.j-input2 {
+    display: inline-block;
+    width: 566px;
+    height: 40px;
+    border: none;
+    background: #ededee;
+    padding-left: 5px;
+    font-size: 12px;
+    line-height: 40px;
+    outline: none;
+}
+.j-r-ad {
+    margin-top: 25px;
+}
+.j-r-three {
+    margin-top: 25px;
+}
+.j-textarea {
+    width: 631px;
+    height: 80px;
+    background-color: #ededee;
+    border: none;
+    resize: none;
+    padding: 5px;
+    font-family: STSong;
+    font-size: 12px;
+    line-height: 150%;
+    margin-top: 10px;
+    outline: none;
+}
+.j-submit {
+    display: block;
+    width: 255px;
+    height: 40px;
+    font-family: SimHei;
+    font-size: 14px;
+    color: #330000;
+    background-color: #ededee;
+    line-height: 40px;
+    text-align: center;
+    border: none;
+    margin: 28px auto;
+    letter-spacing: 5px;
+    outline: none;
+}
+/*底部*/
+.footer {
+    width: 100%;
+    height: 415px;
+    background-color: #32353e;
+    position: relative;
+}
+.f-title {
+    width: 100%;
+    padding-top: 85px;
+    line-height: 40px;
+    font-family: SimHei;
+    font-size: 21px;
+    color: #ffffff;
+    text-align: center;
+}
+.f-text {
+    width: 470px;
+    font-family: STSong;
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 150%;
+}
+.f-search {
+    width: 510px;
+    margin: 30px auto 0 auto;
+    font-size: 0;
+    -webkit-text-size-adjust: none;
+}
+.f-search-left {
+    width: 430px;
+    height: 40px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 1px solid #686166;
+    padding-left: 10px;
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+    color: #686166;
+    outline: none;
+    vertical-align: top;
+}
+.f-search-right {
+    width: 80px;
+    height: 40px;
+    background-color: #686166;
+    font-family: "Microsoft YaHei";
+    font-size: 15px;
+    color: #ffffff;
+    letter-spacing: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.icon-wrap {
+    margin: 30px auto 0 auto;
+    text-align: center;
+}
+.icon {
+    margin: 0 15px;
+}
+.icon-img {
+    height: 25px;
+}
+.f-info {
+    width: 100%;
+    height: 60px;
+    background-color: #2f3038;
+    position: absolute;
+    bottom: 0;
+}
+.f-info-text {
+    font-family: STSong;
+    font-size: 12px;
+    color: #ffffff;
+    line-height: 60px;
+    margin-left: 100px;
+}
+.f-info-text2 {
+    font-family: STSong;
+    font-size: 12px;
+    color: #ffffff;
+    line-height: 60px;
+    float: right;
+    margin-right: 40px;
+}
